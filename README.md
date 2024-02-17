@@ -84,10 +84,10 @@ C000-FFFF First 16KB of ROM
 ## External resources
 
 MAME Emulator:  
-[src/mame/yamaha/ympsr150.cpp](https://github.com/mamedev/mame/blob/master/src/mame/yamaha/ympsr150.cpp)
-[src/devices/cpu/m6502/gew7.cpp](https://github.com/mamedev/mame/blob/master/src/devices/cpu/m6502/gew7.cpp)
-[src/devices/sound/gew7.cpp](https://github.com/mamedev/mame/blob/master/src/devices/sound/gew7.cpp)
-[src/mame/layout/pss12.lay](https://github.com/mamedev/mame/blob/master/src/mame/layout/pss12.lay)
+[src/mame/yamaha/ympsr150.cpp](https://github.com/mamedev/mame/blob/master/src/mame/yamaha/ympsr150.cpp)  
+[src/devices/cpu/m6502/gew7.cpp](https://github.com/mamedev/mame/blob/master/src/devices/cpu/m6502/gew7.cpp)  
+[src/devices/sound/gew7.cpp](https://github.com/mamedev/mame/blob/master/src/devices/sound/gew7.cpp)  
+[src/mame/layout/pss12.lay](https://github.com/mamedev/mame/blob/master/src/mame/layout/pss12.lay)  
 
 [PSR-150 Service Manual and Schematics](https://archive.org/details/psr-150-service-manual)
 
