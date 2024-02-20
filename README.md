@@ -1,6 +1,6 @@
 # Fun for Yamaha PSS-21 keyboards
 
-This repository is a work-in-progress in reverse-engeneering the Yamaha PSS-21 keyboard.  
+This repository is an unsucessful (for now) attempt in reverse-engeneering the Yamaha PSS-21 keyboard.  
 The work here may be useful to the following keyboards:  
 ```
 Same ROM (XL437):
@@ -29,6 +29,8 @@ Different ROM:
 ## Contents
 ```
 xl437a00.dis dissassembly of original rom (program only)
+rom.0 minimal template program
+build.sh vasm build script
 ```
 
 ## Todo

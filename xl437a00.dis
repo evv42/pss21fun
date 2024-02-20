@@ -1,7 +1,7 @@
 ;disassembly of the XL437A0/XL437C0 ROM
 ;unmapped rom is omitted
 C000            .org   $C000
-C000  78        sei             ;set irq
+C000  78        sei             ;clear irq
 C001  A2 FF     ldx    #$FF
 C003  9A        txs             ;set stack
 C004  D8        cld             ;clear decimal mode
@@ -55,7 +55,7 @@ C061  A9 C0     lda    #$C0
 C063  04 AA     tsb    $AA
 C065  A9 03     lda    #$03
 C067  8D 01 04  sta    $0401
-C06A  58        cli
+C06A  58        cli             ; enable interrupts
 C06B  A9 C0     lda    #$C0
 C06D  24 AA     bit    $AA
 C06F  D0 FC     bne    $C06D

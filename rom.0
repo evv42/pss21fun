@@ -1,0 +1,23 @@
+
+  .org $C000
+  sei          ; clear interrupts
+  cld          ; clear decimal
+  ldx #$FF
+  txs
+  lda #$02
+  sta $0408    ; bank 0 = 2
+  lda #$03
+  sta $0409    ; bank 1 = 3
+  lda #$04
+  sta $5D
+loop:
+  jmp loop
+  
+  .org $FF00
+  rti
+  .org $FFFA
+  db $00,$FF
+  .org $FFFC
+  db $00,$C0
+  .org $FFFE
+  db $00,$FF
