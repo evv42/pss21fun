@@ -30,6 +30,7 @@ Different ROM:
 ```
 xl437a00.dis dissassembly of original rom (program only)
 rom.0 minimal template program
+romX.bin samples and filler data
 build.sh vasm build script
 ```
 
